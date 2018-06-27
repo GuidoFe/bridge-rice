@@ -1,0 +1,23 @@
+;=====================================================
+;     File Includes
+;=====================================================
+
+[section/base]
+include-file = /home/guidofe/.config/polybar/minimalMaster.conf
+;include-file = /home/guidofe/.config/polybar/master.conf
+include-file = /home/guidofe/.config/polybar/modules.conf
+
+
+;=====================================================
+;     Minimal Bars
+;=====================================================
+
+[bar/minimal-bar]
+inherit = bar/minimal-master
+modules-left = dot-bspwm
+line-size = 3
+modules-center = mpd
+modules-right = inbox-reddit dot-volume dot-wired-network dot-wireless-network dot-battery-script dot-clock
+tray-position = right
+;tray-maxsize
+;tray-transparent

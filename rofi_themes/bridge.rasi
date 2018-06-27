@@ -1,0 +1,130 @@
+ /* Global properties section */
+ * {
+    background-color: #FFFFFFee; 
+    foreground-color: #695d69;
+    text-color: @foreground-color;
+    foreground: @foreground-color;
+    cursor: #292329;
+    cursor-foreground: #f7f3f7;
+    
+    white: #f7f3f7;
+    grey: #9e8f9e;
+    blackl: #695d69;
+    black: #1b181b;
+    
+    red: #ca402b;
+    redl: #d9614e;
+    urgent: #ca402b;
+    
+    green: #918b3b;
+    greenl: #b2aa48;
+    
+    yellow: #bb8a35;
+    yellowl: #cda050;
+    
+    blue: #516aec;
+    bluel: #6c81ef;
+    
+    purple: #7b59c0;
+    purplel: #8c6fc8;
+    
+    teal: #159393;
+    teall: #1ab7b7;
+    
+    color16: #a65926;
+    color17: #cc33cc;
+    color18: #d8cad8;
+    color19: #ab9bab;
+    color20: #776977;
+    color21: #292329;
+    color22: #e9e2e9;
+
+ }
+
+window{
+    transparency: "real";
+    location: north west;
+    anchor: north west;
+    width: 25%;
+    fullscreen: false;
+    x-offset: 0px;
+    y-offset: 0px;
+    padding: 5px;
+    margin: 0px;
+    border: 0px solid 5px solid 0px solid 0px solid;
+    border-radius: 0px;
+    border-color: @teal;
+    background: @background-color;
+    font: "Dina 9";
+    padding: 20px 20px;
+}
+
+mainbox {
+    font: inherit;
+    background-color: #44444400;
+}
+
+ /* Element theme section. */
+
+inputbar {
+    background-color: #44444400;
+}
+
+overlay {
+    font: inherit;
+    background-color: #44444400;
+}
+
+box {
+    font: inherit;
+    background-color: #44444400;
+}
+
+case-inicator{
+    font: inherit;
+    background-color: #44444400;
+}
+
+prompt {
+    font: inherit;
+    background-color: #44444400;
+    text-color: @teal;
+}
+
+entry {
+    font: inherit;
+    background-color: #44444400;
+}
+
+scrollbar {
+    font: inherit;
+    background-color: #44444400;
+
+}
+
+element {
+    font: inherit;
+    background-color: #44444400;
+}
+
+element.selected {
+    background-color: @teal;
+    text-color: @white;
+}
+
+button {
+    font: inherit;
+    background-color: #44444400;
+}
+
+textbox {
+    font: inherit;
+    background-color: #44444400;
+}
+
+listview {
+    font: inherit;
+    lines: 50;
+    background-color: #44444400;
+}
+
