@@ -1,0 +1,72 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+
+font = Dina 8
+
+scrollback_lines = 10000
+search_wrap = true
+icon_name = utilities-terminal
+geometry = 750x500
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+browser = exo-open
+filter_unmatched_urls = true
+
+[colors]
+# Base16 Atelier Heath Light
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+foreground          = #695d69
+foreground_bold     = #292329
+cursor              = #292329
+cursor_foreground   = #f7f3f7
+background          = #f7f3f7
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color7  = #f7f3f7
+color15  = #9e8f9e
+color8 = #695d69
+color0 = #1b181b
+
+# Red
+color1  = #ca402b
+color9  = #d9614e
+
+# Green
+color2  = #918b3b
+color10 = #b2aa48
+
+# Yellow
+color3  = #bb8a35
+color11 = #cda050
+
+# Blue
+color4  = #516aec
+color12 = #6c81ef
+
+# Purple
+color5  = #7b59c0
+color13 = #8c6fc8
+
+# Teal
+color6  = #159393
+color14 = #1ab7b7
+
+# Extra colors
+color16 = #a65926
+color17 = #cc33cc
+color18 = #d8cad8
+color19 = #ab9bab
+color20 = #776977
+color21 = #292329
+

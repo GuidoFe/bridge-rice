@@ -13,8 +13,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'itchyny/lightline.vim'
 Plugin 'shinchu/lightline-gruvbox.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'rdnetto/YCM-Generator'
 Plugin 'vim-latex/vim-latex'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'godlygeek/tabular'
@@ -83,7 +83,7 @@ endif
 syntax enable
 
 " bracketed paste while in insert mode, bracketed paste preserves indentation
-inoremap <silent><C-v> <Esc>:set paste<CR>a<C-r>+<Esc>:set nopaste<CR>a
+" inoremap <silent><C-v> <Esc>:set paste<CR>a<C-r>+<Esc>:set nopaste<CR>a
 
 " better defaults
 nnoremap 0 ^
@@ -120,8 +120,13 @@ augroup file_load_change_and_position
     autocmd FileChangedShellPost * echo "Changes loaded from file"
 augroup END
 
-set background=dark
-colorscheme base16-atelier-heath-light
+set t_Co=256
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
+set background=light
+colorscheme base16-mexico-light
 set laststatus=2
 let g:lightline = {}
 let g:lightline.colorscheme = 'base16_atelier_heath_light'
@@ -140,3 +145,4 @@ let g:vim_markdown_math = 1
 highlight LineNr guibg=#eee7ee guifg=#ab9bab
 set termguicolors
 set noshowmode
+let g:vim_markdown_folding_disabled = 1

@@ -17,7 +17,7 @@ inherit = bar/minimal-master
 modules-left = dot-bspwm
 line-size = 3
 modules-center = mpd
-modules-right = inbox-reddit dot-volume dot-wired-network dot-wireless-network dot-battery-script dot-clock
+modules-right = inbox-reddit headphones dot-volume dot-wired-network dot-wireless-network dot-battery-script dot-clock
 tray-position = right
 ;tray-maxsize
 ;tray-transparent

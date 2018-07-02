@@ -6,6 +6,8 @@ sxhkd &
 # wallpaper
 nitrogen --restore &
 
+timidity -iA &
+
 # set super key to launch rofi
 ksuperkey -e 'Super_L=Alt_L|F1' &
 
@@ -20,7 +22,6 @@ sleep 1; polybar minimal-bar &
 xdo above -t $(xdo id -n root) $(xdo id -n polybar)
 # Set some bsp specific stuff
 bspc monitor -d I II III IV V VI VII VIII IX X
-
 bspc config normal_border_color '#000000'
 bspc config active_border_color '#e0563a'
 bspc config focused_border_color '#e0563a'

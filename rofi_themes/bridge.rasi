@@ -59,6 +59,9 @@ window{
     padding: 20px 20px;
 }
 
+message {
+}
+
 mainbox {
     font: inherit;
     background-color: #44444400;
