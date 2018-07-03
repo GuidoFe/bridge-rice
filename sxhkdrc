@@ -148,4 +148,6 @@ XF86MonBrightnessDown
     light -U 10
 
 Print
-    scrot
+    maim -u -s ~/Pictures/Screenshots/$(date +%Y%m%d-%H%M%S).png
+alt + Print
+    maim -u ~/Pictures/Screenshots/$(date +%Y%m%d-%H%M%S).png
